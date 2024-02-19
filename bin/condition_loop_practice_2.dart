@@ -34,11 +34,11 @@ void main() {
   }
 
 
-  // 4.Write a dart program to print your name 100 times.
+  // 4.Write a dart program to print your name 10 times.
   print(
-      '\n4. Write a dart program to print your name 100 times.');
+      '\n4. Write a dart program to print your name 10 times.');
 
-  for(int i = 0; i < 100; i++){
+  for(int i = 0; i < 10; i++){
     print('Shevabey');
   }
 
@@ -46,5 +46,15 @@ void main() {
    // 5.Write a dart program to calculate the sum of natural numbers.
   print(
       '\n5.Write a dart program to calculate the sum of natural numbers.');
+  List <int> numbers = [1,2,3,4,5,6];    
+  int total = 0;
+  numbers.forEach((num) => total = total + num);
+  print("total is $total");
+  double avg = total / (numbers.length);
+  print("Average is $avg");
 
+  // 5.Write a dart program to generate multiplication tables of 5.
+  print(
+      '\n6.Write a dart program to generate multiplication tables of 5.');
+  
 }
